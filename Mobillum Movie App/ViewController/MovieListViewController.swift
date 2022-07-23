@@ -48,6 +48,8 @@ class MovieListViewController : UIViewController{
     private func setDataSourcesAndDelegates() {
         movieTableView.dataSource = self
         movieTableView.delegate = self
+        
+        movieTableView.separatorColor = .clear
     }
     
     private func initPullToRefresh() {
@@ -122,10 +124,8 @@ extension MovieListViewController: UITableViewDataSource {
                         self?.upComingMovieModelResult += movie
                         self?.arraycount = movie.count
                         
-                        DispatchQueue.main.async {
-                            self?.movieTableView.reloadData()
-                            self?.refreshControl.endRefreshing()
-                        }
+                        self?.movieTableView.reloadData()
+                        self?.refreshControl.endRefreshing()
                     } onError: { error in
                         print(error)
                     }

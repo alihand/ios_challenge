@@ -20,11 +20,13 @@ struct NowPlayingMovieModelResult: Codable {
     let title: String?
     let overview: String?
     let posterPath: String?
-
+    let releaseDate: String?
+    
     enum CodingKeys: String, CodingKey {
         case id
         case overview
         case title = "title"
         case posterPath = "poster_path"
+        case releaseDate = "release_date"
     }
 }

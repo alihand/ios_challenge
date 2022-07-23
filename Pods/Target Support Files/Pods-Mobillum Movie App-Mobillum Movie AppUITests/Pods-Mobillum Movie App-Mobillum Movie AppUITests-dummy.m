@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_Mobillum_Movie_App_Mobillum_Movie_AppUITests : NSObject
+@end
+@implementation PodsDummy_Pods_Mobillum_Movie_App_Mobillum_Movie_AppUITests
+@end

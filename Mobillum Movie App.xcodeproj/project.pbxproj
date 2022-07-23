@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F2BBA11ADA4F825C636572D /* Pods_Mobillum_Movie_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF6AAD1B656458B90175571 /* Pods_Mobillum_Movie_App.framework */; };
+		71627D69288BC84900CF55CB /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71627D68288BC84900CF55CB /* Service.swift */; };
 		716D886E2889B6070018A74E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716D886D2889B6070018A74E /* AppDelegate.swift */; };
-		716D88702889B6070018A74E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716D886F2889B6070018A74E /* SceneDelegate.swift */; };
-		716D88722889B6070018A74E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716D88712889B6070018A74E /* ViewController.swift */; };
 		716D88752889B6070018A74E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 716D88732889B6070018A74E /* Main.storyboard */; };
 		716D88772889B6090018A74E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 716D88762889B6090018A74E /* Assets.xcassets */; };
 		716D887A2889B6090018A74E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 716D88782889B6090018A74E /* LaunchScreen.storyboard */; };
 		716D88852889B60A0018A74E /* Mobillum_Movie_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716D88842889B60A0018A74E /* Mobillum_Movie_AppTests.swift */; };
 		716D888F2889B60A0018A74E /* Mobillum_Movie_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716D888E2889B60A0018A74E /* Mobillum_Movie_AppUITests.swift */; };
 		716D88912889B60A0018A74E /* Mobillum_Movie_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716D88902889B60A0018A74E /* Mobillum_Movie_AppUITestsLaunchTests.swift */; };
+		716D88B12889C5DF0018A74E /* MovieDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716D88B02889C5DF0018A74E /* MovieDetailModel.swift */; };
+		716D88B72889DC5B0018A74E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716D88B62889DC5B0018A74E /* NetworkManager.swift */; };
+		716D88C12889E02C0018A74E /* NetworkConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716D88C02889E02C0018A74E /* NetworkConstant.swift */; };
+		716D88C72889E8F40018A74E /* UpComingMovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716D88C62889E8F40018A74E /* UpComingMovieModel.swift */; };
+		716D88C92889E9050018A74E /* NowPlayingMovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716D88C82889E9050018A74E /* NowPlayingMovieModel.swift */; };
+		717F2E72288A69C70068B557 /* MovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 717F2E71288A69C70068B557 /* MovieCell.xib */; };
+		717F2E74288A69D10068B557 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717F2E73288A69D10068B557 /* MovieCell.swift */; };
+		717F2E76288A6AC70068B557 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717F2E75288A6AC70068B557 /* Constants.swift */; };
+		717F2E79288A6C0B0068B557 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 717F2E78288A6C0B0068B557 /* HeaderView.xib */; };
+		717F2E7B288A6C2E0068B557 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717F2E7A288A6C2E0068B557 /* HeaderView.swift */; };
+		717F2E7D288A6C830068B557 /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717F2E7C288A6C830068B557 /* HeaderCell.swift */; };
+		717F2E7F288A6CB50068B557 /* HeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 717F2E7E288A6CB50068B557 /* HeaderCell.xib */; };
+		717F2E92288A79E60068B557 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717F2E91288A79E60068B557 /* MovieDetailViewController.swift */; };
+		717F2E94288A7BDC0068B557 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717F2E93288A7BDC0068B557 /* MovieListViewController.swift */; };
+		717F2E9F288A7E8F0068B557 /* UtilitiesHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717F2E9E288A7E8F0068B557 /* UtilitiesHelper.swift */; };
+		DC3E30CC862BC03D932E5C59 /* Pods_Mobillum_Movie_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B11AC14974F32F11E66F81C9 /* Pods_Mobillum_Movie_AppTests.framework */; };
+		F04209F0EC05093119199700 /* Pods_Mobillum_Movie_App_Mobillum_Movie_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D741D922D7AC0121266C6AA5 /* Pods_Mobillum_Movie_App_Mobillum_Movie_AppUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +53,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C9E4FF528D31A9F16F55550 /* Pods-Mobillum Movie App-Mobillum Movie AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobillum Movie App-Mobillum Movie AppUITests.release.xcconfig"; path = "Target Support Files/Pods-Mobillum Movie App-Mobillum Movie AppUITests/Pods-Mobillum Movie App-Mobillum Movie AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		71627D68288BC84900CF55CB /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		716D886A2889B6070018A74E /* Mobillum Movie App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobillum Movie App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		716D886D2889B6070018A74E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		716D886F2889B6070018A74E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		716D88712889B6070018A74E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		716D88742889B6070018A74E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		716D88762889B6090018A74E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		716D88792889B6090018A74E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +66,29 @@
 		716D888A2889B60A0018A74E /* Mobillum Movie AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mobillum Movie AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		716D888E2889B60A0018A74E /* Mobillum_Movie_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobillum_Movie_AppUITests.swift; sourceTree = "<group>"; };
 		716D88902889B60A0018A74E /* Mobillum_Movie_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobillum_Movie_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		716D88B02889C5DF0018A74E /* MovieDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailModel.swift; sourceTree = "<group>"; };
+		716D88B62889DC5B0018A74E /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		716D88C02889E02C0018A74E /* NetworkConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstant.swift; sourceTree = "<group>"; };
+		716D88C62889E8F40018A74E /* UpComingMovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpComingMovieModel.swift; sourceTree = "<group>"; };
+		716D88C82889E9050018A74E /* NowPlayingMovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingMovieModel.swift; sourceTree = "<group>"; };
+		717F2E71288A69C70068B557 /* MovieCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieCell.xib; sourceTree = "<group>"; };
+		717F2E73288A69D10068B557 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		717F2E75288A6AC70068B557 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		717F2E78288A6C0B0068B557 /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		717F2E7A288A6C2E0068B557 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		717F2E7C288A6C830068B557 /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		717F2E7E288A6CB50068B557 /* HeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderCell.xib; sourceTree = "<group>"; };
+		717F2E91288A79E60068B557 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		717F2E93288A7BDC0068B557 /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
+		717F2E9E288A7E8F0068B557 /* UtilitiesHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilitiesHelper.swift; sourceTree = "<group>"; };
+		850F4DCA081588E5B54CCD9D /* Pods-Mobillum Movie App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobillum Movie App.release.xcconfig"; path = "Target Support Files/Pods-Mobillum Movie App/Pods-Mobillum Movie App.release.xcconfig"; sourceTree = "<group>"; };
+		9AF6AAD1B656458B90175571 /* Pods_Mobillum_Movie_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mobillum_Movie_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F00155F41E42C66766C7F5D /* Pods-Mobillum Movie App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobillum Movie App.debug.xcconfig"; path = "Target Support Files/Pods-Mobillum Movie App/Pods-Mobillum Movie App.debug.xcconfig"; sourceTree = "<group>"; };
+		B11AC14974F32F11E66F81C9 /* Pods_Mobillum_Movie_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mobillum_Movie_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D741D922D7AC0121266C6AA5 /* Pods_Mobillum_Movie_App_Mobillum_Movie_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mobillum_Movie_App_Mobillum_Movie_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E39790CD558679F811CC17F0 /* Pods-Mobillum Movie AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobillum Movie AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Mobillum Movie AppTests/Pods-Mobillum Movie AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E89586EACD0D1A44EACA8BDC /* Pods-Mobillum Movie AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobillum Movie AppTests.release.xcconfig"; path = "Target Support Files/Pods-Mobillum Movie AppTests/Pods-Mobillum Movie AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		FE4E5834F45AF060D40C518F /* Pods-Mobillum Movie App-Mobillum Movie AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobillum Movie App-Mobillum Movie AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Mobillum Movie App-Mobillum Movie AppUITests/Pods-Mobillum Movie App-Mobillum Movie AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F2BBA11ADA4F825C636572D /* Pods_Mobillum_Movie_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC3E30CC862BC03D932E5C59 /* Pods_Mobillum_Movie_AppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +112,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F04209F0EC05093119199700 /* Pods_Mobillum_Movie_App_Mobillum_Movie_AppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		71627D66288BBC3000CF55CB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				717F2E9E288A7E8F0068B557 /* UtilitiesHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		71627D67288BC83900CF55CB /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				71627D68288BC84900CF55CB /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		716D88612889B6070018A74E = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +142,8 @@
 				716D88832889B60A0018A74E /* Mobillum Movie AppTests */,
 				716D888D2889B60A0018A74E /* Mobillum Movie AppUITests */,
 				716D886B2889B6070018A74E /* Products */,
+				F48E86DAE9AFB22C18467B0D /* Pods */,
+				E29662B7E6357E3A1DB9B7BB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +161,14 @@
 			isa = PBXGroup;
 			children = (
 				716D886D2889B6070018A74E /* AppDelegate.swift */,
-				716D886F2889B6070018A74E /* SceneDelegate.swift */,
-				716D88712889B6070018A74E /* ViewController.swift */,
-				716D88732889B6070018A74E /* Main.storyboard */,
-				716D88762889B6090018A74E /* Assets.xcassets */,
-				716D88782889B6090018A74E /* LaunchScreen.storyboard */,
+				716D88A12889B6A70018A74E /* Scene */,
+				716D889E2889B65E0018A74E /* Model */,
+				716D889D2889B6580018A74E /* View */,
+				716D889F2889B6640018A74E /* ViewController */,
+				716D88B32889DC290018A74E /* Network */,
+				717F2E9D288A7E630068B557 /* Utilities */,
 				716D887B2889B6090018A74E /* Info.plist */,
+				716D88CB2889E9960018A74E /* Resource */,
 			);
 			path = "Mobillum Movie App";
 			sourceTree = "<group>";
@@ -127,6 +190,137 @@
 			path = "Mobillum Movie AppUITests";
 			sourceTree = "<group>";
 		};
+		716D889D2889B6580018A74E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				717F2E77288A6BE00068B557 /* CollectionViewCell */,
+				717F2E70288A69B30068B557 /* TableViewCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		716D889E2889B65E0018A74E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				716D88B02889C5DF0018A74E /* MovieDetailModel.swift */,
+				716D88C62889E8F40018A74E /* UpComingMovieModel.swift */,
+				716D88C82889E9050018A74E /* NowPlayingMovieModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		716D889F2889B6640018A74E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				717F2E93288A7BDC0068B557 /* MovieListViewController.swift */,
+				717F2E91288A79E60068B557 /* MovieDetailViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		716D88A12889B6A70018A74E /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				716D88732889B6070018A74E /* Main.storyboard */,
+				716D88782889B6090018A74E /* LaunchScreen.storyboard */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		716D88B32889DC290018A74E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				716D88B82889DEB40018A74E /* Manager */,
+				71627D67288BC83900CF55CB /* Service */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		716D88B82889DEB40018A74E /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				716D88B62889DC5B0018A74E /* NetworkManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		716D88BC2889DFD50018A74E /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				717F2E80288A6DBC0068B557 /* Network Constant */,
+				717F2E75288A6AC70068B557 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		716D88CB2889E9960018A74E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				716D88762889B6090018A74E /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		717F2E70288A69B30068B557 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				717F2E73288A69D10068B557 /* MovieCell.swift */,
+				717F2E71288A69C70068B557 /* MovieCell.xib */,
+				717F2E7A288A6C2E0068B557 /* HeaderView.swift */,
+				717F2E78288A6C0B0068B557 /* HeaderView.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		717F2E77288A6BE00068B557 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				717F2E7C288A6C830068B557 /* HeaderCell.swift */,
+				717F2E7E288A6CB50068B557 /* HeaderCell.xib */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		717F2E80288A6DBC0068B557 /* Network Constant */ = {
+			isa = PBXGroup;
+			children = (
+				716D88C02889E02C0018A74E /* NetworkConstant.swift */,
+			);
+			path = "Network Constant";
+			sourceTree = "<group>";
+		};
+		717F2E9D288A7E630068B557 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				716D88BC2889DFD50018A74E /* Constants */,
+				71627D66288BBC3000CF55CB /* Helper */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		E29662B7E6357E3A1DB9B7BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AF6AAD1B656458B90175571 /* Pods_Mobillum_Movie_App.framework */,
+				D741D922D7AC0121266C6AA5 /* Pods_Mobillum_Movie_App_Mobillum_Movie_AppUITests.framework */,
+				B11AC14974F32F11E66F81C9 /* Pods_Mobillum_Movie_AppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F48E86DAE9AFB22C18467B0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F00155F41E42C66766C7F5D /* Pods-Mobillum Movie App.debug.xcconfig */,
+				850F4DCA081588E5B54CCD9D /* Pods-Mobillum Movie App.release.xcconfig */,
+				FE4E5834F45AF060D40C518F /* Pods-Mobillum Movie App-Mobillum Movie AppUITests.debug.xcconfig */,
+				0C9E4FF528D31A9F16F55550 /* Pods-Mobillum Movie App-Mobillum Movie AppUITests.release.xcconfig */,
+				E39790CD558679F811CC17F0 /* Pods-Mobillum Movie AppTests.debug.xcconfig */,
+				E89586EACD0D1A44EACA8BDC /* Pods-Mobillum Movie AppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +328,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 716D88942889B60A0018A74E /* Build configuration list for PBXNativeTarget "Mobillum Movie App" */;
 			buildPhases = (
+				5C549A1A0E795C81E8875F3C /* [CP] Check Pods Manifest.lock */,
 				716D88662889B6070018A74E /* Sources */,
 				716D88672889B6070018A74E /* Frameworks */,
 				716D88682889B6070018A74E /* Resources */,
+				4AE9531C4375F7F7D87D9E3B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +347,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 716D88972889B60A0018A74E /* Build configuration list for PBXNativeTarget "Mobillum Movie AppTests" */;
 			buildPhases = (
+				BB24B4585FD70B60BBC598D2 /* [CP] Check Pods Manifest.lock */,
 				716D887C2889B60A0018A74E /* Sources */,
 				716D887D2889B60A0018A74E /* Frameworks */,
 				716D887E2889B60A0018A74E /* Resources */,
@@ -169,9 +366,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 716D889A2889B60A0018A74E /* Build configuration list for PBXNativeTarget "Mobillum Movie AppUITests" */;
 			buildPhases = (
+				61D7E6B3D4C2163EC8C922B4 /* [CP] Check Pods Manifest.lock */,
 				716D88862889B60A0018A74E /* Sources */,
 				716D88872889B60A0018A74E /* Frameworks */,
 				716D88882889B60A0018A74E /* Resources */,
+				1999E31ED89EE3C89BDEDF82 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +430,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				717F2E7F288A6CB50068B557 /* HeaderCell.xib in Resources */,
 				716D887A2889B6090018A74E /* LaunchScreen.storyboard in Resources */,
+				717F2E79288A6C0B0068B557 /* HeaderView.xib in Resources */,
 				716D88772889B6090018A74E /* Assets.xcassets in Resources */,
 				716D88752889B6070018A74E /* Main.storyboard in Resources */,
+				717F2E72288A69C70068B557 /* MovieCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +455,128 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1999E31ED89EE3C89BDEDF82 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mobillum Movie App-Mobillum Movie AppUITests/Pods-Mobillum Movie App-Mobillum Movie AppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mobillum Movie App-Mobillum Movie AppUITests/Pods-Mobillum Movie App-Mobillum Movie AppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mobillum Movie App-Mobillum Movie AppUITests/Pods-Mobillum Movie App-Mobillum Movie AppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AE9531C4375F7F7D87D9E3B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mobillum Movie App/Pods-Mobillum Movie App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mobillum Movie App/Pods-Mobillum Movie App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mobillum Movie App/Pods-Mobillum Movie App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C549A1A0E795C81E8875F3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mobillum Movie App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61D7E6B3D4C2163EC8C922B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mobillum Movie App-Mobillum Movie AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB24B4585FD70B60BBC598D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mobillum Movie AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		716D88662889B6070018A74E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				716D88722889B6070018A74E /* ViewController.swift in Sources */,
 				716D886E2889B6070018A74E /* AppDelegate.swift in Sources */,
-				716D88702889B6070018A74E /* SceneDelegate.swift in Sources */,
+				71627D69288BC84900CF55CB /* Service.swift in Sources */,
+				717F2E76288A6AC70068B557 /* Constants.swift in Sources */,
+				717F2E9F288A7E8F0068B557 /* UtilitiesHelper.swift in Sources */,
+				717F2E94288A7BDC0068B557 /* MovieListViewController.swift in Sources */,
+				716D88B72889DC5B0018A74E /* NetworkManager.swift in Sources */,
+				717F2E92288A79E60068B557 /* MovieDetailViewController.swift in Sources */,
+				716D88C12889E02C0018A74E /* NetworkConstant.swift in Sources */,
+				716D88B12889C5DF0018A74E /* MovieDetailModel.swift in Sources */,
+				717F2E7B288A6C2E0068B557 /* HeaderView.swift in Sources */,
+				716D88C92889E9050018A74E /* NowPlayingMovieModel.swift in Sources */,
+				717F2E74288A69D10068B557 /* MovieCell.swift in Sources */,
+				717F2E7D288A6C830068B557 /* HeaderCell.swift in Sources */,
+				716D88C72889E8F40018A74E /* UpComingMovieModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +748,7 @@
 		};
 		716D88952889B60A0018A74E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F00155F41E42C66766C7F5D /* Pods-Mobillum Movie App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +777,7 @@
 		};
 		716D88962889B60A0018A74E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 850F4DCA081588E5B54CCD9D /* Pods-Mobillum Movie App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +806,7 @@
 		};
 		716D88982889B60A0018A74E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E39790CD558679F811CC17F0 /* Pods-Mobillum Movie AppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +827,7 @@
 		};
 		716D88992889B60A0018A74E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E89586EACD0D1A44EACA8BDC /* Pods-Mobillum Movie AppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +848,7 @@
 		};
 		716D889B2889B60A0018A74E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE4E5834F45AF060D40C518F /* Pods-Mobillum Movie App-Mobillum Movie AppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +867,7 @@
 		};
 		716D889C2889B60A0018A74E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C9E4FF528D31A9F16F55550 /* Pods-Mobillum Movie App-Mobillum Movie AppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

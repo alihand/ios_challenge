@@ -1,0 +1,6 @@
+framework module Pods_Mobillum_Movie_App_Mobillum_Movie_AppUITests {
+  umbrella header "Pods-Mobillum Movie App-Mobillum Movie AppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
